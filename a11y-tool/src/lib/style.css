@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: monospace;
+}
+
+main,
+.page-top > nav {
+	max-width: 120rch;
+	margin-inline: auto;
+	padding-block: 1em;
+	padding-inline: 1em;
+}
+
+.page-top {
+	color: white;
+	background-color: black;
+}
+
+.page-top a {
+	color: currentColor;
+}
+
+[data-wcag-level] {
+	--level-color: #333;
+	border: 1px solid var(--level-color);
+	display: inline-block;
+	padding-inline: 1ch;
+	padding-block: 0.5ch;
+	border-radius: 0.5rch;
+}
