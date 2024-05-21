@@ -1,0 +1,1 @@
+from .wcag import WCAG

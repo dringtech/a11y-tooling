@@ -724,7 +724,8 @@
               "id": "parsing",
               "label": "Success Criterion 4.1.1",
               "title": "Parsing (Obsolete and removed)",
-              "description": "This criterion was originally adopted to address problems that assistive technology had directly parsing HTML. Assistive technology no longer has any need to directly parse HTML. Consequently, these problems either no longer exist or are addressed by other criteria. This criterion no longer has utility and is removed."
+              "description": "This criterion was originally adopted to address problems that assistive technology had directly parsing HTML. Assistive technology no longer has any need to directly parse HTML. Consequently, these problems either no longer exist or are addressed by other criteria. This criterion no longer has utility and is removed.",
+              "level": null
             },
             {
               "id": "name-role-value",
