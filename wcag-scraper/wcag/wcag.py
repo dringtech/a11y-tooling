@@ -13,6 +13,7 @@ class WCAG(WCAGBase):
     def __init__(self, url):
         r = requests.get(url)
         self._soup = BeautifulSoup(r.text, 'html.parser')
+        self.url = url
         self.principles = [Principle(p).as_dict() for p in self._soup.body.find_all(
             'section', class_='principle')]
 
